@@ -1,0 +1,421 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1120" width="800" height="1120" role="img" aria-labelledby="title desc">
+  <title id="title">Movie Life poster</title>
+  <desc id="desc">A fan-made cartoon poster for Movie Life: five high-school musicians on a sunset railway platform, with a saxophone, trumpet, trombone, cymbals and drums.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#303a67"/>
+      <stop offset="0.32" stop-color="#79618b"/>
+      <stop offset="0.62" stop-color="#dc8a7b"/>
+      <stop offset="0.82" stop-color="#f6c47f"/>
+      <stop offset="1" stop-color="#fae5b1"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fff7c8"/>
+      <stop offset="0.38" stop-color="#ffe0a0"/>
+      <stop offset="1" stop-color="#ffb871" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="field" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#596f68"/>
+      <stop offset="0.55" stop-color="#3f5a55"/>
+      <stop offset="1" stop-color="#1f3437"/>
+    </linearGradient>
+    <linearGradient id="platform" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b48f61"/>
+      <stop offset="1" stop-color="#6f5036"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe08a"/>
+      <stop offset="0.55" stop-color="#f3b84b"/>
+      <stop offset="1" stop-color="#c98622"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf6"/>
+      <stop offset="1" stop-color="#e9e2d3"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#38476a"/>
+      <stop offset="1" stop-color="#222d47"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff7e7" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#fff7e7" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1120" fill="url(#sky)"/>
+
+  <!-- sun, clouds, birds -->
+  <circle cx="548" cy="404" r="210" fill="url(#sun)" opacity=".9"/>
+  <circle cx="548" cy="404" r="64" fill="#fff3c9"/>
+  <g fill="#fff7e7" opacity=".22">
+    <ellipse cx="180" cy="210" rx="112" ry="26"/>
+    <ellipse cx="138" cy="218" rx="56" ry="17"/>
+    <ellipse cx="232" cy="215" rx="58" ry="18"/>
+    <ellipse cx="646" cy="160" rx="86" ry="20"/>
+    <ellipse cx="700" cy="165" rx="48" ry="14"/>
+  </g>
+  <g fill="none" stroke="#3b3149" stroke-width="2.6" stroke-linecap="round" opacity=".55">
+    <path d="M682 300 q10 -9 20 0 q10 -9 20 0"/>
+    <path d="M710 322 q7 -6 14 0 q7 -6 14 0"/>
+  </g>
+
+  <!-- mountains -->
+  <path d="M0 520 L92 446 L168 496 L265 402 L352 494 L448 436 L542 510 L640 450 L730 502 L800 462 L800 600 L0 600Z" fill="#5b4b67" opacity=".92"/>
+  <path d="M0 566 L110 512 L205 556 L318 486 L420 552 L526 500 L624 560 L724 512 L800 548 L800 640 L0 640Z" fill="#473a56" opacity=".92"/>
+
+  <!-- town silhouette -->
+  <g fill="#3a3348" opacity=".85">
+    <rect x="20" y="520" width="46" height="96"/>
+    <rect x="74" y="546" width="30" height="70"/>
+    <rect x="672" y="516" width="52" height="100"/>
+    <rect x="736" y="548" width="32" height="68"/>
+    <path d="M14 520 L43 498 L72 520Z"/>
+    <path d="M666 516 L698 492 L730 516Z"/>
+  </g>
+
+  <!-- rice fields -->
+  <rect y="590" width="800" height="530" fill="url(#field)"/>
+  <g stroke="#f0e0b8" stroke-opacity=".12" stroke-width="2">
+    <path d="M0 668 H800 M0 744 H800 M0 828 H800 M0 920 H800 M0 1016 H800"/>
+    <path d="M392 600 L112 1120 M384 600 L236 1120 M392 600 L420 1120 M392 600 L594 1120 M392 600 L722 1120"/>
+  </g>
+  <g stroke="#ffd992" stroke-opacity=".14" stroke-width="16" stroke-linecap="round">
+    <path d="M548 600 L488 1120 M566 600 L598 1120"/>
+  </g>
+
+  <!-- distant train -->
+  <g opacity=".72">
+    <rect x="40" y="572" width="238" height="36" rx="9" fill="#262633"/>
+    <g fill="#f9d98d">
+      <rect x="58" y="582" width="25" height="13" rx="2"/>
+      <rect x="102" y="582" width="25" height="13" rx="2"/>
+      <rect x="146" y="582" width="25" height="13" rx="2"/>
+      <rect x="190" y="582" width="25" height="13" rx="2"/>
+      <rect x="234" y="582" width="25" height="13" rx="2"/>
+    </g>
+    <circle cx="96" cy="610" r="6" fill="#191a22"/>
+    <circle cx="230" cy="610" r="6" fill="#191a22"/>
+  </g>
+
+  <!-- platform and roof -->
+  <rect y="620" width="800" height="20" fill="#2c2b3a"/>
+  <rect y="640" width="800" height="34" fill="#8a6441"/>
+  <rect y="674" width="800" height="446" fill="url(#platform)"/>
+  <g stroke="#4d3524" stroke-opacity=".45" stroke-width="3">
+    <path d="M0 736 H800 M0 826 H800 M0 932 H800 M0 1052 H800"/>
+    <path d="M90 674 L28 1120 M258 674 L214 1120 M430 674 L430 1120 M604 674 L654 1120 M760 674 L846 1120"/>
+  </g>
+  <rect y="704" width="800" height="9" fill="#e8b64b"/>
+
+  <!-- roof supports -->
+  <g fill="#4d4033">
+    <rect x="64" y="70" width="16" height="570"/>
+    <rect x="720" y="70" width="16" height="570"/>
+  </g>
+  <g fill="#5f5142" opacity=".55">
+    <rect x="0" y="64" width="800" height="14"/>
+    <rect x="0" y="78" width="800" height="40"/>
+  </g>
+
+  <!-- station sign -->
+  <g>
+    <rect x="250" y="112" width="300" height="76" rx="10" fill="#f5efe0" stroke="#4e5962" stroke-width="4"/>
+    <text x="400" y="148" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="27" font-weight="800" fill="#33475d" text-anchor="middle" letter-spacing="2">YAMAGATA</text>
+    <text x="400" y="173" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#8a745a" text-anchor="middle" letter-spacing="3">MOVIE LIFE LINE</text>
+  </g>
+
+  <!-- warm rim light on the platform -->
+  <rect y="674" width="800" height="446" fill="url(#glow)" opacity=".5"/>
+
+  <!-- ================= KAORI : trombone ================= -->
+  <g transform="translate(126 812) scale(.94)">
+    <ellipse cx="0" cy="4" rx="62" ry="16" fill="#141c24" opacity=".3"/>
+    <path d="M-30 -90 L-34 -4 M30 -90 L34 -4" stroke="#2b3750" stroke-width="23" stroke-linecap="round"/>
+    <rect x="-40" y="-14" width="20" height="20" rx="7" fill="#f8f4e9"/>
+    <rect x="20" y="-14" width="20" height="20" rx="7" fill="#f8f4e9"/>
+    <ellipse cx="-31" cy="8" rx="19" ry="9" fill="#3d2c27"/>
+    <ellipse cx="31" cy="8" rx="19" ry="9" fill="#3d2c27"/>
+    <path d="M-44 -140 L-66 -32 Q0 -12 66 -32 L44 -140Z" fill="url(#navy)" stroke="#1b2434" stroke-width="4"/>
+    <g stroke="#45557a" stroke-width="3" opacity=".55">
+      <path d="M-26 -132 L-38 -38 M0 -134 L0 -32 M26 -132 L38 -38"/>
+    </g>
+    <rect x="-42" y="-208" width="84" height="76" rx="17" fill="url(#shirt)" stroke="#d8cdb9" stroke-width="3"/>
+    <path d="M-42 -206 L-10 -176 L0 -190 L10 -176 L42 -206 L34 -218 L0 -202 L-34 -218Z" fill="#2b3750"/>
+    <path d="M-10 -186 L0 -158 L10 -186 L0 -198Z" fill="#7287c9"/>
+    <path d="M-40 -202 L-58 -150" stroke="url(#shirt)" stroke-width="19" stroke-linecap="round"/>
+    <path d="M40 -202 L58 -152" stroke="url(#shirt)" stroke-width="19" stroke-linecap="round"/>
+    <!-- neck + head -->
+    <rect x="-11" y="-226" width="22" height="26" fill="#f0c3a2"/>
+    <ellipse cx="0" cy="-254" rx="35" ry="40" fill="#f8d0b4"/>
+    <!-- bob hair -->
+    <path d="M-37 -260 C-40 -302 -22 -324 0 -324 C22 -324 40 -302 37 -260 C30 -284 16 -292 0 -288 C-16 -292 -30 -284 -37 -260Z" fill="#2f2a2e"/>
+    <path d="M-37 -262 Q-46 -222 -34 -200 Q-24 -230 -26 -270Z" fill="#2f2a2e"/>
+    <path d="M37 -262 Q46 -222 34 -200 Q24 -230 26 -270Z" fill="#2f2a2e"/>
+    <!-- face -->
+    <g fill="none" stroke="#31303a" stroke-width="3">
+      <circle cx="-13" cy="-256" r="12" fill="#fffdf8"/>
+      <circle cx="13" cy="-256" r="12" fill="#fffdf8"/>
+      <path d="M-1 -256 H1"/>
+    </g>
+    <circle cx="-13" cy="-256" r="4.6" fill="#28222c"/>
+    <circle cx="13" cy="-256" r="4.6" fill="#28222c"/>
+    <circle cx="-11.4" cy="-258" r="1.6" fill="#fff"/>
+    <circle cx="14.6" cy="-258" r="1.6" fill="#fff"/>
+    <path d="M-8 -236 Q0 -229 8 -236" stroke="#a05a52" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <ellipse cx="-24" cy="-240" rx="7" ry="4" fill="#f39b96" opacity=".45"/>
+    <ellipse cx="24" cy="-240" rx="7" ry="4" fill="#f39b96" opacity=".45"/>
+    <path d="M-40 -176 Q-18 -158 0 -154" stroke="#f0c3a2" stroke-width="15" fill="none" stroke-linecap="round"/>
+    <path d="M40 -178 Q48 -160 40 -146" stroke="#f0c3a2" stroke-width="15" fill="none" stroke-linecap="round"/>
+    <!-- trombone, held across the body -->
+    <g transform="translate(26 -176) rotate(-14)">
+      <path d="M8 4 L-86 26" stroke="url(#gold)" stroke-width="9" stroke-linecap="round"/>
+      <path d="M2 14 L-88 36" stroke="#e7b249" stroke-width="4.5" stroke-linecap="round"/>
+      <path d="M-84 14 Q-118 22 -110 40 Q-101 56 -82 46Z" fill="url(#gold)" stroke="#8e5e16" stroke-width="3"/>
+      <ellipse cx="-106" cy="35" rx="4" ry="11" transform="rotate(14 -106 35)" fill="#5b3d12"/>
+      <path d="M8 4 C28 0 38 -10 34 -24 C31 -34 18 -34 14 -22" stroke="url(#gold)" stroke-width="10" fill="none" stroke-linecap="round"/>
+      <ellipse cx="8" cy="4" rx="9" ry="8" fill="#f3b84b" stroke="#8e5e16" stroke-width="2"/>
+    </g>
+    <ellipse cx="-8" cy="-158" rx="9" ry="7" fill="#f0c3a2"/>
+    <ellipse cx="34" cy="-188" rx="8" ry="7" fill="#f0c3a2"/>
+  </g>
+
+  <!-- ================= YOSHIE : trumpet ================= -->
+  <g transform="translate(286 800) scale(.98)">
+    <ellipse cx="0" cy="4" rx="62" ry="16" fill="#141c24" opacity=".3"/>
+    <path d="M-30 -90 L-34 -4 M30 -90 L34 -4" stroke="#2b3750" stroke-width="23" stroke-linecap="round"/>
+    <rect x="-40" y="-14" width="20" height="20" rx="7" fill="#f8f4e9"/>
+    <rect x="20" y="-14" width="20" height="20" rx="7" fill="#f8f4e9"/>
+    <ellipse cx="-31" cy="8" rx="19" ry="9" fill="#3d2c27"/>
+    <ellipse cx="31" cy="8" rx="19" ry="9" fill="#3d2c27"/>
+    <path d="M-44 -140 L-66 -32 Q0 -12 66 -32 L44 -140Z" fill="url(#navy)" stroke="#1b2434" stroke-width="4"/>
+    <g stroke="#45557a" stroke-width="3" opacity=".55">
+      <path d="M-26 -132 L-38 -38 M0 -134 L0 -32 M26 -132 L38 -38"/>
+    </g>
+    <rect x="-42" y="-208" width="84" height="76" rx="17" fill="url(#shirt)" stroke="#d8cdb9" stroke-width="3"/>
+    <path d="M-42 -206 L-10 -176 L0 -190 L10 -176 L42 -206 L34 -218 L0 -202 L-34 -218Z" fill="#2b3750"/>
+    <path d="M-10 -186 L0 -158 L10 -186 L0 -198Z" fill="#e9a23b"/>
+    <path d="M-40 -202 L-58 -150" stroke="url(#shirt)" stroke-width="19" stroke-linecap="round"/>
+    <path d="M40 -202 L56 -154" stroke="url(#shirt)" stroke-width="19" stroke-linecap="round"/>
+    <rect x="-11" y="-226" width="22" height="26" fill="#f4c3a0"/>
+    <ellipse cx="0" cy="-254" rx="35" ry="40" fill="#f4c3a0"/>
+    <!-- brown bob with clip -->
+    <path d="M-37 -260 C-40 -302 -22 -324 0 -324 C22 -324 40 -302 37 -260 C30 -284 16 -292 0 -288 C-16 -292 -30 -284 -37 -260Z" fill="#4a3026"/>
+    <path d="M-37 -262 Q-44 -224 -33 -204 Q-24 -232 -26 -270Z" fill="#4a3026"/>
+    <path d="M37 -262 Q44 -224 33 -204 Q24 -232 26 -270Z" fill="#4a3026"/>
+    <g>
+      <circle cx="-13" cy="-256" r="4.7" fill="#28222c"/>
+      <circle cx="13" cy="-256" r="4.7" fill="#28222c"/>
+      <circle cx="-11.4" cy="-258" r="1.6" fill="#fff"/>
+      <circle cx="14.6" cy="-258" r="1.6" fill="#fff"/>
+    </g>
+    <path d="M-9 -235 Q0 -227 9 -235" stroke="#a05a52" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <ellipse cx="-24" cy="-240" rx="7" ry="4" fill="#f39b96" opacity=".42"/>
+    <ellipse cx="24" cy="-240" rx="7" ry="4" fill="#f39b96" opacity=".42"/>
+    <path d="M24 -280 L38 -274" stroke="#e9a23b" stroke-width="7" stroke-linecap="round"/>
+    <!-- trumpet -->
+    <g transform="translate(20 -186) rotate(-26)">
+      <path d="M0 0 H54" stroke="url(#gold)" stroke-width="11" stroke-linecap="round"/>
+      <path d="M52 -14 Q84 -20 86 0 Q84 20 52 14Z" fill="url(#gold)" stroke="#8e5e16" stroke-width="3"/>
+      <ellipse cx="82" cy="0" rx="5" ry="12" fill="#5b3d12"/>
+      <path d="M14 -8 V-20 M30 -8 V-20 M46 -8 V-20" stroke="#8e5e16" stroke-width="4" stroke-linecap="round"/>
+      <path d="M0 -8 Q-12 -4 -8 8" stroke="#8e5e16" stroke-width="5" fill="none" stroke-linecap="round"/>
+    </g>
+    <ellipse cx="34" cy="-190" rx="8" ry="7" fill="#f4c3a0"/>
+    <ellipse cx="6" cy="-152" rx="8" ry="7" fill="#f4c3a0"/>
+    <path d="M-40 -176 Q-18 -156 2 -154" stroke="#f4c3a0" stroke-width="15" fill="none" stroke-linecap="round"/>
+    <path d="M40 -178 Q52 -158 40 -146" stroke="#f4c3a0" stroke-width="15" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- ================= NAOMI : drums ================= -->
+  <!-- kick drum behind Naomi -->
+  <g transform="translate(404 842)">
+    <ellipse cx="0" cy="40" rx="58" ry="16" fill="#141c24" opacity=".3"/>
+    <circle cx="0" cy="0" r="52" fill="#2b3750" stroke="#1b2434" stroke-width="4"/>
+    <circle cx="0" cy="0" r="44" fill="#f4e7cf"/>
+    <circle cx="0" cy="0" r="9" fill="#2b3750" opacity=".3"/>
+    <path d="M0 -50 V-38 M0 50 V38 M-50 0 H-38 M50 0 H38" stroke="#b9a98b" stroke-width="3"/>
+    <g fill="#b9a98b">
+      <circle cx="-31" cy="-31" r="3"/><circle cx="31" cy="-31" r="3"/>
+      <circle cx="-31" cy="31" r="3"/><circle cx="31" cy="31" r="3"/>
+    </g>
+  </g>
+  <!-- hi-hat left of Naomi -->
+  <g transform="translate(346 690)">
+    <ellipse cx="0" cy="0" rx="30" ry="8" fill="url(#gold)" stroke="#96621e" stroke-width="2.5"/>
+    <ellipse cx="0" cy="-5" rx="30" ry="8" fill="#f0c060" stroke="#96621e" stroke-width="2.5"/>
+    <path d="M0 4 V164" stroke="#4a4a52" stroke-width="4"/>
+    <path d="M-26 168 H26" stroke="#4a4a52" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(486 806) scale(.94)">
+    <ellipse cx="0" cy="4" rx="60" ry="16" fill="#141c24" opacity=".3"/>
+    <path d="M-30 -90 L-34 -4 M30 -90 L34 -4" stroke="#2b3750" stroke-width="23" stroke-linecap="round"/>
+    <rect x="-40" y="-14" width="20" height="20" rx="7" fill="#f8f4e9"/>
+    <rect x="20" y="-14" width="20" height="20" rx="7" fill="#f8f4e9"/>
+    <ellipse cx="-31" cy="8" rx="19" ry="9" fill="#3d2c27"/>
+    <ellipse cx="31" cy="8" rx="19" ry="9" fill="#3d2c27"/>
+    <path d="M-44 -140 L-66 -32 Q0 -12 66 -32 L44 -140Z" fill="url(#navy)" stroke="#1b2434" stroke-width="4"/>
+    <g stroke="#45557a" stroke-width="3" opacity=".55">
+      <path d="M-26 -132 L-38 -38 M0 -134 L0 -32 M26 -132 L38 -38"/>
+    </g>
+    <rect x="-42" y="-208" width="84" height="76" rx="17" fill="url(#shirt)" stroke="#d8cdb9" stroke-width="3"/>
+    <path d="M-42 -206 L-10 -176 L0 -190 L10 -176 L42 -206 L34 -218 L0 -202 L-34 -218Z" fill="#2b3750"/>
+    <path d="M-10 -186 L0 -158 L10 -186 L0 -198Z" fill="#4b9b8c"/>
+    <path d="M-40 -202 L-58 -150" stroke="url(#shirt)" stroke-width="19" stroke-linecap="round"/>
+    <path d="M40 -202 L56 -154" stroke="url(#shirt)" stroke-width="19" stroke-linecap="round"/>
+    <rect x="-11" y="-226" width="22" height="26" fill="#efbd96"/>
+    <ellipse cx="0" cy="-254" rx="35" ry="40" fill="#efbd96"/>
+    <!-- brown hair with high ponytail -->
+    <path d="M-37 -260 C-40 -302 -22 -324 0 -324 C22 -324 40 -302 37 -260 C30 -284 16 -292 0 -288 C-16 -292 -30 -284 -37 -260Z" fill="#6b4730"/>
+    <path d="M30 -288 Q56 -322 70 -300 Q62 -272 44 -270 Q36 -278 30 -288Z" fill="#6b4730"/>
+    <circle cx="66" cy="-300" r="9" fill="#4b9b8c"/>
+    <path d="M-37 -262 Q-44 -224 -33 -204 Q-24 -232 -26 -270Z" fill="#6b4730"/>
+    <path d="M37 -262 Q44 -224 33 -204 Q24 -232 26 -270Z" fill="#6b4730"/>
+    <g>
+      <circle cx="-13" cy="-256" r="4.7" fill="#28222c"/>
+      <circle cx="13" cy="-256" r="4.7" fill="#28222c"/>
+      <circle cx="-11.4" cy="-258" r="1.6" fill="#fff"/>
+      <circle cx="14.6" cy="-258" r="1.6" fill="#fff"/>
+    </g>
+    <path d="M-10 -234 Q0 -224 10 -234" stroke="#a05a52" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+    <ellipse cx="-24" cy="-240" rx="7" ry="4" fill="#f39b96" opacity=".42"/>
+    <ellipse cx="24" cy="-240" rx="7" ry="4" fill="#f39b96" opacity=".42"/>
+    <!-- drumsticks -->
+    <path d="M-38 -158 L-76 -198" stroke="#b98a4d" stroke-width="6" stroke-linecap="round"/>
+    <path d="M38 -158 L76 -198" stroke="#b98a4d" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="-38" cy="-158" rx="8" ry="7" fill="#efbd96"/>
+    <ellipse cx="38" cy="-158" rx="8" ry="7" fill="#efbd96"/>
+    <!-- snare at her left -->
+    <g transform="translate(-80 -78)">
+      <ellipse cx="0" cy="0" rx="34" ry="10" fill="#e8dcc3" stroke="#8d826c" stroke-width="3"/>
+      <path d="M-34 -1 V26 Q0 40 34 26 V-1" fill="#f4e7cf" stroke="#8d826c" stroke-width="3"/>
+      <path d="M-30 4 L-26 26 M-14 8 L-12 30 M14 8 L12 30 M30 4 L26 26" stroke="#b9a98b" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- ================= TOMOKO : saxophone ================= -->
+  <g transform="translate(612 878) scale(1.06)">
+    <ellipse cx="0" cy="4" rx="66" ry="17" fill="#141c24" opacity=".32"/>
+    <path d="M-30 -90 L-34 -4 M30 -90 L34 -4" stroke="#2b3750" stroke-width="23" stroke-linecap="round"/>
+    <rect x="-40" y="-14" width="20" height="20" rx="7" fill="#f8f4e9"/>
+    <rect x="20" y="-14" width="20" height="20" rx="7" fill="#f8f4e9"/>
+    <ellipse cx="-31" cy="8" rx="19" ry="9" fill="#3d2c27"/>
+    <ellipse cx="31" cy="8" rx="19" ry="9" fill="#3d2c27"/>
+    <path d="M-44 -140 L-66 -32 Q0 -12 66 -32 L44 -140Z" fill="url(#navy)" stroke="#1b2434" stroke-width="4"/>
+    <g stroke="#45557a" stroke-width="3" opacity=".55">
+      <path d="M-26 -132 L-38 -38 M0 -134 L0 -32 M26 -132 L38 -38"/>
+    </g>
+    <rect x="-42" y="-208" width="84" height="76" rx="17" fill="url(#shirt)" stroke="#d8cdb9" stroke-width="3"/>
+    <path d="M-42 -206 L-10 -176 L0 -190 L10 -176 L42 -206 L34 -218 L0 -202 L-34 -218Z" fill="#2b3750"/>
+    <path d="M-10 -186 L0 -158 L10 -186 L0 -198Z" fill="#e15b5d"/>
+    <path d="M-40 -202 L-58 -150" stroke="url(#shirt)" stroke-width="19" stroke-linecap="round"/>
+    <path d="M40 -202 L58 -152" stroke="url(#shirt)" stroke-width="19" stroke-linecap="round"/>
+    <rect x="-11" y="-226" width="22" height="26" fill="#f6c7a6"/>
+    <ellipse cx="0" cy="-254" rx="36" ry="41" fill="#f6c7a6"/>
+    <!-- long brown hair + red ribbon -->
+    <path d="M-38 -260 C-42 -304 -22 -326 0 -326 C22 -326 42 -304 38 -260 C30 -286 16 -294 0 -290 C-16 -294 -30 -286 -38 -260Z" fill="#5a3928"/>
+    <path d="M-38 -262 Q-50 -190 -32 -160 Q-22 -210 -26 -272Z" fill="#5a3928"/>
+    <path d="M38 -262 Q50 -190 32 -160 Q22 -210 26 -272Z" fill="#5a3928"/>
+    <path d="M22 -286 Q46 -286 44 -266 Q30 -268 22 -286Z" fill="#e15b5d"/>
+    <path d="M22 -286 Q2 -292 0 -276 Q16 -276 22 -286Z" fill="#e15b5d"/>
+    <g>
+      <circle cx="-13" cy="-256" r="4.9" fill="#28222c"/>
+      <circle cx="13" cy="-256" r="4.9" fill="#28222c"/>
+      <circle cx="-11.2" cy="-258" r="1.7" fill="#fff"/>
+      <circle cx="14.8" cy="-258" r="1.7" fill="#fff"/>
+    </g>
+    <path d="M-10 -233 Q0 -222 10 -233" stroke="#a05a52" stroke-width="3.6" fill="none" stroke-linecap="round"/>
+    <ellipse cx="-25" cy="-240" rx="7.5" ry="4" fill="#f39b96" opacity=".45"/>
+    <ellipse cx="25" cy="-240" rx="7.5" ry="4" fill="#f39b96" opacity=".45"/>
+    <!-- saxophone from mouth to waist -->
+    <g transform="translate(21 -233)">
+      <path d="M0 -4 L12 0 C22 3 24 14 22 28" stroke="url(#gold)" stroke-width="9" fill="none" stroke-linecap="round"/>
+      <path d="M22 28 V112 C22 142 48 154 64 134" stroke="url(#gold)" stroke-width="17" fill="none" stroke-linecap="round"/>
+      <path d="M22 28 V112 C22 142 48 154 64 134" stroke="#6e4b17" stroke-width="3" fill="none" opacity=".5"/>
+      <ellipse cx="67" cy="132" rx="23" ry="14" transform="rotate(24 67 132)" fill="url(#gold)" stroke="#8e5e16" stroke-width="3"/>
+      <ellipse cx="69" cy="132" rx="10" ry="5.5" transform="rotate(24 69 132)" fill="#5b3d12"/>
+      <path d="M0 -4 L-8 -12" stroke="#2f2a2a" stroke-width="7" stroke-linecap="round"/>
+      <g fill="#fff1c7" stroke="#8e5e16" stroke-width="1.6">
+        <circle cx="30" cy="46" r="4"/>
+        <circle cx="31" cy="66" r="4"/>
+        <circle cx="32" cy="86" r="4"/>
+        <circle cx="34" cy="106" r="4"/>
+      </g>
+      <path d="M22 62 H34" stroke="#8e5e16" stroke-width="2.5"/>
+      <path d="M22 96 H35" stroke="#8e5e16" stroke-width="2.5"/>
+    </g>
+    <!-- hands over the sax -->
+    <path d="M-40 -178 Q-14 -160 10 -150" stroke="#f6c7a6" stroke-width="15" fill="none" stroke-linecap="round"/>
+    <ellipse cx="27" cy="-150" rx="10" ry="8" fill="#f6c7a6"/>
+    <path d="M40 -180 Q50 -166 34 -150" stroke="#f6c7a6" stroke-width="15" fill="none" stroke-linecap="round"/>
+    <ellipse cx="34" cy="-126" rx="10" ry="8" fill="#f6c7a6"/>
+  </g>
+
+  <!-- ================= TAKUO : cymbals ================= -->
+  <g transform="translate(712 802) scale(.9)">
+    <ellipse cx="0" cy="4" rx="58" ry="16" fill="#141c24" opacity=".3"/>
+    <path d="M-26 -92 L-32 -4 M26 -92 L32 -4" stroke="#242e45" stroke-width="25" stroke-linecap="round"/>
+    <rect x="-38" y="-14" width="20" height="20" rx="6" fill="#1b2233"/>
+    <rect x="18" y="-14" width="20" height="20" rx="6" fill="#1b2233"/>
+    <ellipse cx="-30" cy="8" rx="19" ry="9" fill="#232a38"/>
+    <ellipse cx="30" cy="8" rx="19" ry="9" fill="#232a38"/>
+    <!-- long gakuran jacket -->
+    <path d="M-48 -206 L-56 -32 Q0 -14 56 -32 L48 -206Z" fill="#2c3549" stroke="#1c2433" stroke-width="4"/>
+    <path d="M0 -204 V-24" stroke="#1c2433" stroke-width="4"/>
+    <g fill="#d9b25e">
+      <circle cx="0" cy="-184" r="4"/>
+      <circle cx="0" cy="-154" r="4"/>
+      <circle cx="0" cy="-124" r="4"/>
+      <circle cx="0" cy="-94" r="4"/>
+      <circle cx="0" cy="-64" r="4"/>
+    </g>
+    <!-- high collar -->
+    <path d="M-40 -210 Q0 -186 40 -210 L34 -224 Q0 -204 -34 -224Z" fill="#3a4660" stroke="#1c2433" stroke-width="3"/>
+    <path d="M-40 -218 Q0 -196 40 -218" fill="none" stroke="#d9b25e" stroke-width="3"/>
+    <rect x="-11" y="-232" width="22" height="26" fill="#eec09d"/>
+    <ellipse cx="0" cy="-260" rx="34" ry="39" fill="#eec09d"/>
+    <!-- bowl cut -->
+    <path d="M-36 -266 C-40 -306 -22 -326 0 -326 C22 -326 40 -306 36 -266 C28 -292 14 -300 0 -296 C-14 -300 -28 -292 -36 -266Z" fill="#2d2928"/>
+    <path d="M-36 -266 Q-40 -244 -33 -232 Q-28 -252 -28 -274Z" fill="#2d2928"/>
+    <path d="M36 -266 Q40 -244 33 -232 Q28 -252 28 -274Z" fill="#2d2928"/>
+    <g>
+      <circle cx="-12.5" cy="-262" r="4.6" fill="#28222c"/>
+      <circle cx="12.5" cy="-262" r="4.6" fill="#28222c"/>
+      <circle cx="-10.9" cy="-264" r="1.6" fill="#fff"/>
+      <circle cx="14.1" cy="-264" r="1.6" fill="#fff"/>
+    </g>
+    <path d="M-7 -240 Q0 -234 7 -240" stroke="#8d5a4c" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- suspended snare and sticks -->
+    <path d="M-40 -200 L-28 -152" stroke="#eec09d" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M40 -200 L28 -152" stroke="#eec09d" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <g transform="translate(0 -78)">
+      <path d="M-36 0 V22 Q0 34 36 22 V0" fill="#f4e7cf" stroke="#8d826c" stroke-width="3"/>
+      <ellipse cx="0" cy="0" rx="36" ry="11" fill="#f4e7cf" stroke="#8d826c" stroke-width="3"/>
+      <ellipse cx="0" cy="0" rx="27" ry="7" fill="none" stroke="#cbbfa6" stroke-width="2"/>
+      <path d="M-32 4 L-28 21 M-16 8 L-14 26 M0 10 V28 M16 8 L14 26 M32 4 L28 21" stroke="#b9a98b" stroke-width="2"/>
+    </g>
+    <path d="M-28 -152 L-10 -110" stroke="#b98a4d" stroke-width="5.5" stroke-linecap="round"/>
+    <path d="M28 -152 L10 -110" stroke="#b98a4d" stroke-width="5.5" stroke-linecap="round"/>
+    <ellipse cx="-28" cy="-152" rx="8" ry="7" fill="#eec09d"/>
+    <ellipse cx="28" cy="-152" rx="8" ry="7" fill="#eec09d"/>
+  </g>
+
+  <!-- floating notes -->
+  <g fill="#fff3c9" opacity=".55">
+    <text x="112" y="430" font-family="Georgia, serif" font-size="34">♪</text>
+    <text x="668" y="360" font-family="Georgia, serif" font-size="27">♫</text>
+    <text x="728" y="470" font-family="Georgia, serif" font-size="22">♪</text>
+    <text x="196" y="330" font-family="Georgia, serif" font-size="20">♩</text>
+    <text x="614" y="260" font-family="Georgia, serif" font-size="30">♪</text>
+    <text x="250" y="640" font-family="Georgia, serif" font-size="18">♬</text>
+  </g>
+
+  <!-- title block -->
+  <g>
+    <rect x="58" y="912" width="684" height="168" rx="20" fill="#141a24" opacity=".5"/>
+    <text x="400" y="986" font-family="Georgia, Times New Roman, serif" font-size="76" fill="#fff7e7" text-anchor="middle" letter-spacing="3">MOVIE LIFE</text>
+    <path d="M276 1004 H524" stroke="#f3b84b" stroke-width="2" opacity=".8"/>
+    <text x="400" y="1042" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#f3b84b" text-anchor="middle" letter-spacing="7">A SUMMER OF JAZZ</text>
+  </g>
+
+  <rect x="10" y="10" width="780" height="1100" rx="18" fill="none" stroke="#fff7e7" stroke-opacity=".12" stroke-width="2"/>
+</svg>

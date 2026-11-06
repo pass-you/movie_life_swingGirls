@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#141a24">
+  <meta name="description" content="Movie Life — a tiny browser RPG inspired by a summer of jazz, rice fields and a very stubborn saxophone.">
+  <title>Movie Life</title>
+  <link rel="icon" href="pictures/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main id="app">
+    <canvas id="game" tabindex="0" role="application"
+      aria-label="Movie Life. A story game. Use arrow keys or W A S D to move, E or Space to talk, and D F J K to play music notes."></canvas>
+
+    <header id="hud" class="hidden" aria-hidden="false">
+      <div class="hud-left">
+        <div class="brand"><span class="brand-note">♪</span><span>MOVIE LIFE</span></div>
+        <div class="chapter-line" id="chapterLabel">PART I · SUMMER</div>
+      </div>
+      <div class="objective-pill" id="objectivePill">
+        <span class="objective-spark" aria-hidden="true">✦</span>
+        <span id="objectiveText">Talk to Mr. Ozawa</span>
+      </div>
+    </header>
+
+    <div id="topActions" class="hidden">
+      <button id="muteBtn" class="icon-btn" type="button" aria-label="Mute audio" title="Mute audio (M)">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path class="sound-wave" d="M16 8c1.2 1.1 1.8 2.4 1.8 4S17.2 14.9 16 16M18.7 5.5c2 1.8 3 4 3 6.5s-1 4.7-3 6.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+      <button id="helpBtn" class="icon-btn" type="button" aria-label="How to play" title="How to play (H)">?</button>
+    </div>
+
+    <section id="dialogue" class="hidden" role="dialog" aria-modal="true" aria-labelledby="speakerName" aria-describedby="dialogueText">
+      <div class="portrait-wrap">
+        <canvas id="portrait" width="184" height="184" aria-hidden="true"></canvas>
+      </div>
+      <div class="dialogue-body">
+        <div class="speaker-row">
+          <span id="speakerName">Tomoko</span>
+          <span class="speaker-flourish" aria-hidden="true">♪</span>
+        </div>
+        <p id="dialogueText"></p>
+        <div class="dialogue-hint" id="dialogueHint"><span class="key-chip">E</span> / tap to continue</div>
+      </div>
+    </section>
+
+    <div id="touchControls" class="hidden" aria-hidden="true">
+      <div id="joystick" role="presentation">
+        <div id="joystickBase">
+          <div id="stick"></div>
+        </div>
+      </div>
+      <button id="actionBtn" type="button" aria-label="Interact">
+        <span class="action-spark">✦</span>
+        <span class="action-letter">E</span>
+      </button>
+    </div>
+
+    <section id="chapterCard" class="hidden" aria-live="polite">
+      <div class="chapter-rule"></div>
+      <div class="chapter-part" id="chapterPart">PART I</div>
+      <h1 id="chapterTitle">Summer School</h1>
+      <p id="chapterSubtitle">Yamagata, 2004</p>
+      <div class="chapter-rule"></div>
+    </section>
+
+    <section id="resultModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="resultTitle">
+      <div class="result-card">
+        <div class="result-kicker" id="resultKicker">SUNSET LINE</div>
+        <h2 id="resultTitle">Nice!</h2>
+        <p class="result-copy" id="resultCopy">The band is finding its groove.</p>
+        <div class="result-grid">
+          <div><span class="result-number" id="resultAccuracy">0%</span><span class="result-label">accuracy</span></div>
+          <div><span class="result-number" id="resultCombo">0</span><span class="result-label">best combo</span></div>
+          <div><span class="result-number" id="resultPerfect">0</span><span class="result-label">perfect hits</span></div>
+        </div>
+        <div class="result-actions">
+          <button id="retryBtn" type="button" class="btn btn-ghost">Try again</button>
+          <button id="continueBtn" type="button" class="btn btn-gold">Continue</button>
+        </div>
+        <button id="skipBtn" type="button" class="link-btn hidden">Skip for now</button>
+      </div>
+    </section>
+
+    <section id="helpModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="helpTitle">
+      <div class="help-card">
+        <div class="result-kicker">A SMALL GUIDE</div>
+        <h2 id="helpTitle">How to play</h2>
+        <div class="help-grid">
+          <div class="help-item"><span class="help-keys">WASD<br>↑ ↓ ← →</span><p>Move around Yamagata.</p></div>
+          <div class="help-item"><span class="help-keys">E<br>Space</span><p>Talk, inspect, and continue dialogue.</p></div>
+          <div class="help-item"><span class="help-keys">Click<br>Tap</span><p>Click the ground to walk. Tap dialogue to continue.</p></div>
+          <div class="help-item"><span class="help-keys">D F<br>J K</span><p>Hit the falling notes during music scenes.</p></div>
+        </div>
+        <p class="help-note">On a phone, use the joystick and the glowing action button. The game pauses whenever a dialogue is open.</p>
+        <p class="help-note muted">Music and sound effects are synthesized live with Web Audio. Press <strong>M</strong> to mute.</p>
+        <button id="helpCloseBtn" type="button" class="btn btn-gold">Back to the story</button>
+      </div>
+    </section>
+
+    <section id="ending" class="hidden" role="dialog" aria-modal="true" aria-labelledby="endingTitle">
+      <div class="ending-inner">
+        <div class="ending-kicker">MOVIE LIFE</div>
+        <h1 id="endingTitle">THE END</h1>
+        <p class="ending-copy" id="endingCopy">The last note hangs in the air, then the whole hall is on its feet.</p>
+        <div class="ending-stats" id="endingStats"></div>
+        <p class="ending-credit">A small, fan-made tribute to <em>Swing Girls</em> (2004).<br>No film footage or copyrighted music is used.</p>
+        <button id="playAgainBtn" type="button" class="btn btn-gold">Play again</button>
+      </div>
+    </section>
+
+    <div id="fade" aria-hidden="true"></div>
+    <div id="toast" class="hidden" role="status" aria-live="polite"></div>
+    <div id="a11y" class="sr-only" aria-live="polite"></div>
+  </main>
+
+  <script src="js/audio.js"></script>
+  <script src="js/characters.js"></script>
+  <script src="js/backgrounds.js"></script>
+  <script src="js/rhythm.js"></script>
+  <script src="js/story.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

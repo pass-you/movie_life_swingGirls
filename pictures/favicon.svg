@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Movie Life — a golden music note">
+  <defs>
+    <radialGradient id="bg" cx="36%" cy="28%" r="85%">
+      <stop offset="0" stop-color="#3a4d74"/>
+      <stop offset="0.58" stop-color="#24324a"/>
+      <stop offset="1" stop-color="#131a26"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe08a"/>
+      <stop offset="0.55" stop-color="#f3b84b"/>
+      <stop offset="1" stop-color="#c98622"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ffd979" stop-opacity=".48"/>
+      <stop offset="1" stop-color="#ffd979" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <circle cx="64" cy="64" r="54" fill="url(#glow)"/>
+  <circle cx="64" cy="64" r="48" fill="none" stroke="#f3b84b" stroke-opacity=".28" stroke-width="2"/>
+  <circle cx="64" cy="64" r="42" fill="none" stroke="#fff7e7" stroke-opacity=".12" stroke-width="1.5"/>
+  <path d="M78 32v44.5c0 8-6.7 14.5-15 14.5s-15-6.5-15-14.5S54.7 62 63 62c2.1 0 4.1.4 5.9 1.2V38l26-5.6V32z" fill="url(#gold)"/>
+  <ellipse cx="63" cy="77" rx="14" ry="13" fill="url(#gold)"/>
+  <ellipse cx="63" cy="77" rx="7" ry="6.4" fill="#24324a" opacity=".62"/>
+  <path d="M96 28l-25 5.6" stroke="#8e5e16" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+  <circle cx="27" cy="35" r="3" fill="#fff7e7" opacity=".7"/>
+  <circle cx="99" cy="94" r="2.2" fill="#fff7e7" opacity=".5"/>
+  <circle cx="34" cy="93" r="1.8" fill="#f3b84b" opacity=".8"/>
+</svg>
